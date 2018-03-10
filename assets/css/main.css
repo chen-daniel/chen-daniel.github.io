@@ -731,6 +731,8 @@
 		}
 
 			#main .avatar img {
+				height: 244px;
+				weight: 244px;
 				display: block;
 				margin: 0 auto;
 				border-radius: 100%;
