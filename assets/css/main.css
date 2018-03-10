@@ -182,6 +182,7 @@
 
 	p {
 		margin: 0 0 1.5em 0;
+		font-size: 0.9em;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -200,13 +201,13 @@
 		}
 
 	h1 {
-		font-size: 1.85em;
+		font-size: 1.6em;
 		letter-spacing: 0.22em;
 		margin: 0 0 0.525em 0;
 	}
 
 	h2 {
-		font-size: 1.25em;
+		font-size: 1.1em;
 	}
 
 	h3 {
@@ -708,7 +709,7 @@
 		position: relative;
 		max-width: 100%;
 		min-width: 27em;
-		padding: 4.5em 3em 3em 3em ;
+		padding: 2.5em 3em 0.5em 3em ;
 		background: #ffffff;
 		border-radius: 4px;
 		cursor: default;
