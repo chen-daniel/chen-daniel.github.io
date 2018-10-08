@@ -1,5 +1,7 @@
 import React from 'react';
-import { BrowserRouter, Route, Link, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from 'react-router-dom';
+
+import Navbar from '../common-components/Navbar/navbar.component';
 
 import './Router.css';
 import Home from './Home/Home.component';
@@ -9,13 +11,14 @@ import Projects from './Projects/Projects.component';
 import Photography from './Photography/Photography.component';
 
 export default () => (
-  <BrowserRouter>
+  <HashRouter>
     <Switch>
+      <Navbar />
       <Route exact path="/" component={Home} />
       <Route exact path="/about" component={About} />
       <Route exact path="/resume" component={Resume} />
       <Route exact path="/projects" component={Projects} />
       <Route exact path="/photography" component={Photography} />
     </Switch>
-  </BrowserRouter>
+  </HashRouter>
 );
