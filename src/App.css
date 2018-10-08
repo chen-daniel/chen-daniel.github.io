@@ -915,7 +915,7 @@ body.is-loading #main {
   -ms-align-self: -ms-flex-end;
   align-self: flex-end;
   width: 100%;
-  padding: 1.5em 0 0 0;
+  padding: 3em 0 0 0;
   color: rgba(255, 255, 255, 0.75);
   cursor: default;
   text-align: center;
@@ -965,7 +965,8 @@ body.is-loading #main {
   perspective: 1000px;
   position: relative;
   min-height: 107%;
-  padding: 7em;
+  padding-top: 7em;
+  padding-bottom: 3em;
   z-index: 2;
 }
 
