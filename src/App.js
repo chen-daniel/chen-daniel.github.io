@@ -6,13 +6,15 @@ import Navbar from './common-components/Navbar/navbar.component';
 import './App.css';
 
 export default () => (
-  <div id="wrapper">
+  <div>
     <Navbar />
-    <Router />
-    <footer id="footer">
-      <ul className="copyright">
-        <li>&copy; Daniel Chen</li>
-      </ul>
-    </footer>
+    <div>
+      <Router />
+      <footer id="footer">
+        <ul className="copyright">
+          <li>&copy; Daniel Chen</li>
+        </ul>
+      </footer>
+    </div>
   </div>
 );
