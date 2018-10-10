@@ -1,3 +1,7 @@
 #home-img {
-  content: url('../../images/profile.jpg');
+  height: 144px;
+  width: 144px;
+  content: url('../../images/logo.png');
+  background-color: white;
+  border-radius: initial;
 }

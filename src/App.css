@@ -837,7 +837,6 @@ button:disabled,
 
 #main {
   margin: auto;
-  max-width: 100%;
   min-width: 27em;
   padding: 2.5em 3em 0.5em 3em;
   background: #ffffff;
@@ -866,11 +865,8 @@ button:disabled,
 }
 
 #main .avatar img {
-  height: 144px;
-  weight: 144px;
   display: block;
   margin: 0 auto;
-  border-radius: 100%;
   box-shadow: 0 0 0 1.5em #ffffff;
 }
 
