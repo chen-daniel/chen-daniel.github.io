@@ -5,3 +5,7 @@
   background-color: white;
   border-radius: initial;
 }
+
+.home-page {
+  min-width: 27em;
+}

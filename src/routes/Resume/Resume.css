@@ -1,0 +1,19 @@
+.resume-page {
+  min-width: 80em;
+  min-height: 43em;
+}
+
+.resume-pdf {
+  width: 100%;
+  min-height: 39em;
+}
+
+.page {
+  flex-direction: 'row';
+  background-color: '#E4E4E4';
+}
+.section {
+  margin: 10;
+  padding: 10;
+  flex-grow: 1;
+}

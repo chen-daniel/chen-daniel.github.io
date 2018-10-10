@@ -8,7 +8,7 @@ import './App.css';
 export default () => (
   <div id="wrapper">
     <Navbar />
-    <div>
+    <div id="content">
       <Router />
     </div>
     <footer id="footer">

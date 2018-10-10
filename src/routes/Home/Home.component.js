@@ -3,7 +3,7 @@ import React from 'react';
 import './Home.css';
 
 export default () => (
-  <section id="main">
+  <section className="home-page" id="main">
     <header>
       <span className="avatar">
         <img alt="" id="home-img" />

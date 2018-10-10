@@ -1,10 +1,13 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+
+import './Resume.css';
 
 export default () => (
-  <div>
-    Bye
-    <br />
-    <Link to="/">Go to Page1</Link>
-  </div>
+  <section className="resume-page" id="main">
+    <embed
+      src="assets/files/Resume.pdf#view=FitH"
+      alt="pdf"
+      className="resume-pdf"
+    />
+  </section>
 );
