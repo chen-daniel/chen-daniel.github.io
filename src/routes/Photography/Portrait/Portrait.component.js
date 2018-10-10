@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './Photography.css';
+import './Portrait.css';
 
 export default () => (
   <section className="tiles" id="main">
