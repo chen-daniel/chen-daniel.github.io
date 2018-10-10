@@ -965,10 +965,6 @@ body.is-loading #main {
   z-index: 2;
 }
 
-#wrapper > * {
-  z-index: 1;
-}
-
 #wrapper:before {
   content: '';
   display: block;
