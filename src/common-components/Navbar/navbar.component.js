@@ -1,8 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { HashRouter } from 'react-router-dom';
 
-import './navbar.css';
+import DelayLink from '../DelayLink/DelayLink.component';
+
+import './Navbar.css';
 
 class Navbar extends React.Component {
   componentDidMount() {
@@ -13,40 +14,101 @@ class Navbar extends React.Component {
     document.body.appendChild(s);
   }
 
+  _delayStart = (e, to) => {
+    const wrapper = document.getElementById('wrapper');
+    wrapper.className = 'is-loading';
+  };
+
   render() {
     return (
       <HashRouter>
         <nav id="nav">
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <DelayLink to="/" delay={750} onDelayStart={this._delayStart}>
+                Home
+              </DelayLink>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <DelayLink
+                to="/about"
+                delay={750}
+                onDelayStart={this._delayStart}
+              >
+                About
+              </DelayLink>
             </li>
             <li>
-              <Link to="/resume">Resume</Link>
+              <DelayLink
+                to="/resume"
+                delay={750}
+                onDelayStart={this._delayStart}
+              >
+                Resume
+              </DelayLink>
             </li>
             <li>
-              <Link to="/projects">Projects</Link>
+              <DelayLink
+                to="/projects"
+                delay={750}
+                onDelayStart={this._delayStart}
+              >
+                Projects
+              </DelayLink>
             </li>
             <li>
-              <Link to="/photography">Photography</Link>
+              <DelayLink
+                to="/photography"
+                delay={750}
+                onDelayStart={this._delayStart}
+              >
+                Photography
+              </DelayLink>
               <ul>
                 <li>
-                  <Link to="/photography/portrait">Portrait</Link>
+                  <DelayLink
+                    to="/photography/portrait"
+                    delay={750}
+                    onDelayStart={this._delayStart}
+                  >
+                    Portrait
+                  </DelayLink>
                 </li>
                 <li>
-                  <Link to="/photography/street_urban">Street/Urban</Link>
+                  <DelayLink
+                    to="/photography/street_urban"
+                    delay={750}
+                    onDelayStart={this._delayStart}
+                  >
+                    Street/Urban
+                  </DelayLink>
                 </li>
                 <li>
-                  <Link to="/photography/landscape">Landscape</Link>
+                  <DelayLink
+                    to="/photography/landscape"
+                    delay={750}
+                    onDelayStart={this._delayStart}
+                  >
+                    Landscape
+                  </DelayLink>
                 </li>
                 <li>
-                  <Link to="/photography/event">Event</Link>
+                  <DelayLink
+                    to="/photography/event"
+                    delay={750}
+                    onDelayStart={this._delayStart}
+                  >
+                    Event
+                  </DelayLink>
                 </li>
                 <li>
-                  <Link to="/photography/cosplay">Cosplay</Link>
+                  <DelayLink
+                    to="/photography/cosplay"
+                    delay={750}
+                    onDelayStart={this._delayStart}
+                  >
+                    Cosplay
+                  </DelayLink>
                 </li>
               </ul>
             </li>
