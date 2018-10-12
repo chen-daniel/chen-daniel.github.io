@@ -30,7 +30,7 @@ class Portrait extends React.Component {
       <section className="tiles" id="main">
         <Photo src="/assets/images/pic17.jpg" />
         <Photo src="/assets/images/pic16.jpg" />
-        <Photo src="/assets/images/pic04.jpg" />
+        <Photo src="/assets/images/pic18.jpg" />
         <Photo src="/assets/images/pic05.jpg" />
         <Photo src="/assets/images/pic06.jpg" />
         <Photo src="/assets/images/pic07.jpg" />

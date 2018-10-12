@@ -28,7 +28,7 @@ class Photography extends React.Component {
         />
         <PhotographyLink
           articlestyle="style3"
-          src="/assets/images/pic01.jpg"
+          src="/assets/images/pic18.jpg"
           to="/photography/landscape"
           title="Landscape"
         />

@@ -16,11 +16,14 @@ class PhotographyLink extends React.Component {
   };
 
   render() {
+    const style = {
+      'background-image': `url(${this.props.src})`,
+      cursor: 'pointer',
+      outline: '0px'
+    };
     return (
-      <article className={this.props.articlestyle}>
-        <span className="image">
-          <img src={this.props.src} alt="" />
-        </span>
+      <article className={this.props.articlestyle + ' thumb'}>
+        <a className="image" style={style} />
         <DelayedLink
           to={this.props.to}
           delay={350}
