@@ -14,7 +14,7 @@ class App extends React.Component {
         </div>
         <footer id="footer">
           <ul className="copyright">
-            <li>&copy; Daniel Chen</li>
+            <li>&copy; Daniel Chen | HTML5 Up</li>
           </ul>
         </footer>
       </div>

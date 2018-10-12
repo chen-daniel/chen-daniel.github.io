@@ -13,6 +13,8 @@
   flex-wrap: wrap;
   position: relative;
   margin: -2.5em 0 0 -2.5em;
+  max-height: calc(100vh - 15em);
+  overflow: auto;
 }
 
 .tiles article {
