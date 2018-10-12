@@ -956,6 +956,14 @@ body.is-loading #main {
 /* Wrapper */
 
 #wrapper {
+  -moz-transition: -moz-filter 0.35s ease, -webkit-filter 0.35s ease,
+    -ms-filter 0.35s ease, -moz-filter 0.35s ease;
+  -webkit-transition: -moz-filter 0.35s ease, -webkit-filter 0.35s ease,
+    -ms-filter 0.35s ease, -webkit-filter 0.35s ease;
+  -ms-transition: -moz-filter 0.35s ease, -webkit-filter 0.35s ease,
+    -ms-filter 0.35s ease, -ms-filter 0.35s ease;
+  transition: -moz-filter 0.35s ease, -webkit-filter 0.35s ease,
+    -ms-filter 0.35s ease, filter 0.35s ease;
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
@@ -995,4 +1003,68 @@ body.is-ie #wrapper {
 #root {
   height: 100%;
   width: 100%;
+}
+
+@-moz-keyframes spinner {
+  0% {
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    -ms-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+@-webkit-keyframes spinner {
+  0% {
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    -ms-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+@-ms-keyframes spinner {
+  0% {
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    -ms-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes spinner {
+  0% {
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -moz-transform: rotate(359deg);
+    -webkit-transform: rotate(359deg);
+    -ms-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
 }

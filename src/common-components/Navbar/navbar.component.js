@@ -8,7 +8,7 @@ import './Navbar.css';
 class Navbar extends React.Component {
   componentDidMount() {
     let s = document.createElement('script');
-    s.src = 'assets/js/main.js';
+    s.src = 'assets/js/dropotronInit.js';
     s.type = 'text/javascript';
     s.async = true;
     document.body.appendChild(s);
