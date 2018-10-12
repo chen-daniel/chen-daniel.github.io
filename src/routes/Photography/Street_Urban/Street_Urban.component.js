@@ -3,8 +3,10 @@ import React from 'react';
 import './Street_Urban.css';
 class Street_Urban extends React.Component {
   componentDidMount() {
-    const wrapper = document.getElementById('wrapper');
-    wrapper.classList.remove('is-loading');
+    setTimeout(() => {
+      const wrapper = document.getElementById('wrapper');
+      wrapper.classList.remove('is-loading');
+    }, 10);
   }
 
   render() {

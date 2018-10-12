@@ -3,8 +3,10 @@ import React from 'react';
 import './Event.css';
 class Event extends React.Component {
   componentDidMount() {
-    const wrapper = document.getElementById('wrapper');
-    wrapper.classList.remove('is-loading');
+    setTimeout(() => {
+      const wrapper = document.getElementById('wrapper');
+      wrapper.classList.remove('is-loading');
+    }, 10);
   }
 
   render() {

@@ -66,7 +66,7 @@ class DelayLink extends React.Component {
     delete props.onDelayEnd;
     delete props.to;
 
-    return <li onClick={this.handleClick}>{props.children}</li>;
+    return <div className="page-link" {...props} onClick={this.handleClick} />;
   }
 }
 

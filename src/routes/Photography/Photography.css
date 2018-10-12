@@ -22,6 +22,7 @@
   transition: transform 0.5s ease, opacity 0.5s ease;
   position: relative;
   width: calc(33.3333333333% - 2.5em);
+  height: calc(24.5vw - 2.5em);
   margin: 1.25em;
 }
 
@@ -33,11 +34,13 @@
   position: relative;
   display: block;
   width: 100%;
+  height: 100%;
   border-radius: 4px;
   overflow: hidden;
 }
 
 .tiles article > .image img {
+  object-position: center;
   display: block;
   width: 100%;
 }
@@ -66,7 +69,6 @@
   -webkit-transition: opacity 0.5s ease;
   -ms-transition: opacity 0.5s ease;
   transition: opacity 0.5s ease;
-  content: '';
   display: block;
   position: absolute;
   top: 0;
@@ -81,7 +83,8 @@
   z-index: 2;
 }
 
-.tiles article > a {
+.tiles article > .page-link {
+  cursor: pointer;
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
@@ -116,19 +119,19 @@
   z-index: 3;
 }
 
-.tiles article > a > :last-child {
+.tiles article > .page-link > :last-child {
   margin: 0;
 }
 
-.tiles article > a:hover {
+.tiles article > .page-link:hover {
   color: #ffffff !important;
 }
 
-.tiles article > a h2 {
+.tiles article > .page-link h2 {
   margin: 0;
 }
 
-.tiles article > a .content {
+.tiles article > .page-link .content {
   -moz-transition: max-height 0.5s ease, opacity 0.5s ease;
   -webkit-transition: max-height 0.5s ease, opacity 0.5s ease;
   -ms-transition: max-height 0.5s ease, opacity 0.5s ease;
@@ -140,7 +143,7 @@
   opacity: 0;
 }
 
-.tiles article > a .content > :last-child {
+.tiles article > .page-link .content > :last-child {
   margin-bottom: 0;
 }
 
@@ -208,34 +211,37 @@ body.is-touch .tiles article .content {
 
 @media screen and (max-width: 1280px) {
   .tiles {
-    margin: -1.25em 0 0 -1.25em;
+    margin: -0.625em;
   }
 
   .tiles article {
     width: calc(33.3333333333% - 1.25em);
-    margin: 1.25em 0 0 1.25em;
+    height: calc(24.5vw - 1.25em);
+    margin: 0.625em;
   }
 }
 
 @media screen and (max-width: 980px) {
   .tiles {
-    margin: -2.5em 0 0 -2.5em;
+    margin: -1.25em;
   }
 
   .tiles article {
     width: calc(50% - 2.5em);
-    margin: 2.5em 0 0 2.5em;
+    height: calc(33vw - 1.25em);
+    margin: 1.25em;
   }
 }
 
 @media screen and (max-width: 736px) {
   .tiles {
-    margin: -1.25em 0 0 -1.25em;
+    margin: -0.675em;
   }
 
   .tiles article {
-    width: calc(50% - 1.25em);
-    margin: 1.25em 0 0 1.25em;
+    width: calc(50% - 1.35em);
+    height: calc(33vw - 1.5em);
+    margin: 0.675em;
   }
 
   .tiles article:hover > .image {
@@ -253,6 +259,7 @@ body.is-touch .tiles article .content {
 
   .tiles article {
     width: 100%;
+    height: 88.5vw;
     margin: 1.25em 0 0 0;
   }
 }

@@ -4,8 +4,10 @@ import './Portrait.css';
 
 class Portrait extends React.Component {
   componentDidMount() {
-    const wrapper = document.getElementById('wrapper');
-    wrapper.classList.remove('is-loading');
+    setTimeout(() => {
+      const wrapper = document.getElementById('wrapper');
+      wrapper.classList.remove('is-loading');
+    }, 10);
   }
 
   render() {

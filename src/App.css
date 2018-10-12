@@ -176,6 +176,15 @@ body.is-loading *:after {
   transition: none !important;
 }
 
+#wrapper.is-loading *,
+#wrapper.is-loading *:before,
+#wrapper.is-loading *:after {
+  -moz-transition: opacity 0.35s ease, -moz-transform 0.35s ease;
+  -webkit-transition: opacity 0.35s ease, -webkit-transform 0.35s ease;
+  -ms-transition: opacity 0.35s ease, -ms-transform 0.35s ease;
+  transition: opacity 0.35s ease, transform 0.35s ease;
+}
+
 html {
   height: 100%;
 }
