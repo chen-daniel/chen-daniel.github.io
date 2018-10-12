@@ -30,6 +30,7 @@ class DelayLink extends React.Component {
    * @param {Event} e
    */
   handleClick = (e) => {
+    console.log(e);
     const { replace, to, delay, onDelayStart, onDelayEnd } = this.props;
     const { history, route } = this.context.router;
     const currLocation = route.location.pathname;
@@ -65,7 +66,7 @@ class DelayLink extends React.Component {
     delete props.onDelayEnd;
     delete props.to;
 
-    return <p {...props} onClick={this.handleClick} />;
+    return <li onClick={this.handleClick}>{props.children}</li>;
   }
 }
 
