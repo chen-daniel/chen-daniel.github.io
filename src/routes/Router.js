@@ -12,6 +12,7 @@ import Portrait from './Photography/Portrait/Portrait.component';
 import Street_Urban from './Photography/Street_Urban/Street_Urban.component';
 import Landscape from './Photography/Landscape/Landscape.component';
 import Event from './Photography/Event/Event.component';
+import Film from './Photography/Film/Film.component';
 import Cosplay from './Photography/Cosplay/Cosplay.component';
 
 class Router extends React.Component {
@@ -32,6 +33,7 @@ class Router extends React.Component {
           />
           <Route exact path="/photography/landscape" component={Landscape} />
           <Route exact path="/photography/event" component={Event} />
+          <Route exact path="/photography/film" component={Film} />
           <Route exact path="/photography/cosplay" component={Cosplay} />
         </Switch>
       </HashRouter>

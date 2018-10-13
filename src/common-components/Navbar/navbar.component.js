@@ -24,68 +24,75 @@ class Navbar extends React.Component {
       <HashRouter>
         <nav id="nav">
           <ul>
-            <DelayLinkList to="/" delay={350} onDelayStart={this._delayStart}>
+            <DelayLinkList to="/" delay={375} onDelayStart={this._delayStart}>
               <p>Home</p>
             </DelayLinkList>
             <DelayLinkList
               to="/about"
-              delay={350}
+              delay={375}
               onDelayStart={this._delayStart}
             >
               <p>About</p>
             </DelayLinkList>
             <DelayLinkList
               to="/resume"
-              delay={350}
+              delay={375}
               onDelayStart={this._delayStart}
             >
               <p>Resume</p>
             </DelayLinkList>
             <DelayLinkList
               to="/projects"
-              delay={350}
+              delay={375}
               onDelayStart={this._delayStart}
             >
               <p>Projects</p>
             </DelayLinkList>
             <DelayLinkList
               to="/photography"
-              delay={350}
+              delay={375}
               onDelayStart={this._delayStart}
             >
               <p>Photography</p>
               <ul>
                 <DelayLinkList
                   to="/photography/portrait"
-                  delay={350}
+                  delay={375}
                   onDelayStart={this._delayStart}
                 >
                   <p>Portrait</p>
                 </DelayLinkList>
                 <DelayLinkList
                   to="/photography/street_urban"
-                  delay={350}
+                  delay={375}
                   onDelayStart={this._delayStart}
                 >
                   <p>Street/Urban</p>
                 </DelayLinkList>
                 <DelayLinkList
                   to="/photography/landscape"
-                  delay={350}
+                  delay={375}
                   onDelayStart={this._delayStart}
                 >
                   <p>Landscape</p>
                 </DelayLinkList>
                 <DelayLinkList
                   to="/photography/event"
-                  delay={350}
+                  delay={375}
                   onDelayStart={this._delayStart}
                 >
                   <p>Event</p>
                 </DelayLinkList>
                 <DelayLinkList
+                  to="/photography/film"
+                  delay={375}
+                  onDelayStart={this._delayStart}
+                >
+                  <p>Film</p>
+                </DelayLinkList>
+                <DelayLinkList
                   to="/photography/cosplay"
-                  delay={350}
+                  delay={375}
                   onDelayStart={this._delayStart}
                 >
                   <p>Cosplay</p>

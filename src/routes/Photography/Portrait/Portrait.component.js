@@ -9,7 +9,7 @@ class Portrait extends React.Component {
     setTimeout(() => {
       const wrapper = document.getElementById('wrapper');
       wrapper.classList.remove('is-loading');
-    }, 10);
+    }, 50);
     let s = document.createElement('script');
     s.src = 'assets/js/poptroxInit.js';
     s.type = 'text/javascript';

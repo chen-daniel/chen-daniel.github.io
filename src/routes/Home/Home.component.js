@@ -7,7 +7,7 @@ class Home extends React.Component {
     setTimeout(() => {
       const wrapper = document.getElementById('wrapper');
       wrapper.classList.remove('is-loading');
-    }, 10);
+    }, 50);
   }
   render() {
     return (

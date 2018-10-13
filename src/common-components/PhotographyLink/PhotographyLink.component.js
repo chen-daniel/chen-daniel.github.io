@@ -26,7 +26,7 @@ class PhotographyLink extends React.Component {
         <a className="image" style={style} />
         <DelayedLink
           to={this.props.to}
-          delay={350}
+          delay={375}
           onDelayStart={this._delayStart}
         >
           <h2>{this.props.title}</h2>

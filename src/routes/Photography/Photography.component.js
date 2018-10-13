@@ -8,7 +8,7 @@ class Photography extends React.Component {
     setTimeout(() => {
       const wrapper = document.getElementById('wrapper');
       wrapper.classList.remove('is-loading');
-    }, 10);
+    }, 50);
   }
 
   render() {
@@ -41,6 +41,12 @@ class Photography extends React.Component {
         <PhotographyLink
           articlestyle="style5"
           src="/assets/images/pic03.jpg"
+          to="/photography/film"
+          title="Film"
+        />
+        <PhotographyLink
+          articlestyle="style6"
+          src="/assets/images/pic04.jpg"
           to="/photography/cosplay"
           title="Cosplay"
         />

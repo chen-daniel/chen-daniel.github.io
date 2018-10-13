@@ -2,8 +2,9 @@ import React from 'react';
 
 import Photo from '../../../common-components/Photo/Photo.component';
 
-import './Street_Urban.css';
-class Street_Urban extends React.Component {
+import './Film.css';
+
+class Film extends React.Component {
   componentDidMount() {
     setTimeout(() => {
       const wrapper = document.getElementById('wrapper');
@@ -29,7 +30,7 @@ class Street_Urban extends React.Component {
       <section className="tiles" id="main">
         <Photo src="/assets/images/pic17.jpg" />
         <Photo src="/assets/images/pic16.jpg" />
-        <Photo src="/assets/images/pic04.jpg" />
+        <Photo src="/assets/images/pic18.jpg" />
         <Photo src="/assets/images/pic05.jpg" />
         <Photo src="/assets/images/pic06.jpg" />
         <Photo src="/assets/images/pic07.jpg" />
@@ -38,4 +39,4 @@ class Street_Urban extends React.Component {
   }
 }
 
-export default Street_Urban;
+export default Film;
