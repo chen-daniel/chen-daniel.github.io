@@ -27,12 +27,17 @@ class Landscape extends React.Component {
   render() {
     return (
       <section className="tiles" id="main">
-        <Photo src="/assets/images/pic17.jpg" />
-        <Photo src="/assets/images/pic16.jpg" />
-        <Photo src="/assets/images/pic04.jpg" />
-        <Photo src="/assets/images/pic05.jpg" />
-        <Photo src="/assets/images/pic06.jpg" />
-        <Photo src="/assets/images/pic07.jpg" />
+        <Photo src="/assets/images/Landscape/11.jpg" />
+        <Photo src="/assets/images/Landscape/10.jpg" />
+        <Photo src="/assets/images/Landscape/09.jpg" />
+        <Photo src="/assets/images/Landscape/08.jpg" />
+        <Photo src="/assets/images/Landscape/07.jpg" />
+        <Photo src="/assets/images/Landscape/06.jpg" />
+        <Photo src="/assets/images/Landscape/05.jpg" />
+        <Photo src="/assets/images/Landscape/04.jpg" />
+        <Photo src="/assets/images/Landscape/03.jpg" />
+        <Photo src="/assets/images/Landscape/02.jpg" />
+        <Photo src="/assets/images/Landscape/01.jpg" />
       </section>
     );
   }

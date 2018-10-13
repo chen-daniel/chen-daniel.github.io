@@ -27,12 +27,24 @@ class Street_Urban extends React.Component {
   render() {
     return (
       <section className="tiles" id="main">
-        <Photo src="/assets/images/pic17.jpg" />
-        <Photo src="/assets/images/pic16.jpg" />
-        <Photo src="/assets/images/pic04.jpg" />
-        <Photo src="/assets/images/pic05.jpg" />
-        <Photo src="/assets/images/pic06.jpg" />
-        <Photo src="/assets/images/pic07.jpg" />
+        <Photo src="/assets/images/Street_Urban/18.jpg" />
+        <Photo src="/assets/images/Street_Urban/17.jpg" />
+        <Photo src="/assets/images/Street_Urban/16.jpg" />
+        <Photo src="/assets/images/Street_Urban/15.jpg" />
+        <Photo src="/assets/images/Street_Urban/14.jpg" />
+        <Photo src="/assets/images/Street_Urban/13.jpg" />
+        <Photo src="/assets/images/Street_Urban/12.jpg" />
+        <Photo src="/assets/images/Street_Urban/11.jpg" />
+        <Photo src="/assets/images/Street_Urban/10.jpg" />
+        <Photo src="/assets/images/Street_Urban/09.jpg" />
+        <Photo src="/assets/images/Street_Urban/08.jpg" />
+        <Photo src="/assets/images/Street_Urban/07.jpg" />
+        <Photo src="/assets/images/Street_Urban/06.jpg" />
+        <Photo src="/assets/images/Street_Urban/05.jpg" />
+        <Photo src="/assets/images/Street_Urban/04.jpg" />
+        <Photo src="/assets/images/Street_Urban/03.jpg" />
+        <Photo src="/assets/images/Street_Urban/02.jpg" />
+        <Photo src="/assets/images/Street_Urban/01.jpg" />
       </section>
     );
   }

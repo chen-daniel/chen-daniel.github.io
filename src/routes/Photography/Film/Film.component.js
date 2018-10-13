@@ -28,12 +28,12 @@ class Film extends React.Component {
   render() {
     return (
       <section className="tiles" id="main">
-        <Photo src="/assets/images/pic17.jpg" />
-        <Photo src="/assets/images/pic16.jpg" />
-        <Photo src="/assets/images/pic18.jpg" />
-        <Photo src="/assets/images/pic05.jpg" />
-        <Photo src="/assets/images/pic06.jpg" />
-        <Photo src="/assets/images/pic07.jpg" />
+        <Photo src="/assets/images/Film/06.jpg" />
+        <Photo src="/assets/images/Film/05.jpg" />
+        <Photo src="/assets/images/Film/04.jpg" />
+        <Photo src="/assets/images/Film/03.jpg" />
+        <Photo src="/assets/images/Film/02.jpg" />
+        <Photo src="/assets/images/Film/01.jpg" />
       </section>
     );
   }

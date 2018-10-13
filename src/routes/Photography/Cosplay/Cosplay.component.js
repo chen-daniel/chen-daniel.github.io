@@ -28,12 +28,13 @@ class Cosplay extends React.Component {
   render() {
     return (
       <section className="tiles" id="main">
-        <Photo src="/assets/images/pic17.jpg" />
-        <Photo src="/assets/images/pic16.jpg" />
-        <Photo src="/assets/images/pic04.jpg" />
-        <Photo src="/assets/images/pic05.jpg" />
-        <Photo src="/assets/images/pic06.jpg" />
-        <Photo src="/assets/images/pic07.jpg" />
+        <Photo src="/assets/images/Cosplay/07.jpg" />
+        <Photo src="/assets/images/Cosplay/06.jpg" />
+        <Photo src="/assets/images/Cosplay/05.jpg" />
+        <Photo src="/assets/images/Cosplay/04.jpg" />
+        <Photo src="/assets/images/Cosplay/03.jpg" />
+        <Photo src="/assets/images/Cosplay/02.jpg" />
+        <Photo src="/assets/images/Cosplay/01.jpg" />
       </section>
     );
   }

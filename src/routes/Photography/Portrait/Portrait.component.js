@@ -28,12 +28,24 @@ class Portrait extends React.Component {
   render() {
     return (
       <section className="tiles" id="main">
-        <Photo src="/assets/images/pic17.jpg" />
-        <Photo src="/assets/images/pic16.jpg" />
-        <Photo src="/assets/images/pic18.jpg" />
-        <Photo src="/assets/images/pic05.jpg" />
-        <Photo src="/assets/images/pic06.jpg" />
-        <Photo src="/assets/images/pic07.jpg" />
+        <Photo src="/assets/images/Portrait/18.jpg" />
+        <Photo src="/assets/images/Portrait/17.jpg" />
+        <Photo src="/assets/images/Portrait/16.jpg" />
+        <Photo src="/assets/images/Portrait/15.jpg" />
+        <Photo src="/assets/images/Portrait/14.jpg" />
+        <Photo src="/assets/images/Portrait/13.jpg" />
+        <Photo src="/assets/images/Portrait/12.jpg" />
+        <Photo src="/assets/images/Portrait/11.jpg" />
+        <Photo src="/assets/images/Portrait/10.jpg" />
+        <Photo src="/assets/images/Portrait/09.jpg" />
+        <Photo src="/assets/images/Portrait/08.jpg" />
+        <Photo src="/assets/images/Portrait/07.jpg" />
+        <Photo src="/assets/images/Portrait/06.jpg" />
+        <Photo src="/assets/images/Portrait/05.jpg" />
+        <Photo src="/assets/images/Portrait/04.jpg" />
+        <Photo src="/assets/images/Portrait/03.jpg" />
+        <Photo src="/assets/images/Portrait/02.jpg" />
+        <Photo src="/assets/images/Portrait/01.jpg" />
       </section>
     );
   }
