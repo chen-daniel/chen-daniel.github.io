@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Router from './routes/Router';
-import Navbar from './common-components/Navbar/Navbar.component';
+import Navbar from './common-components/Navbar/navbar.component';
 
 import './App.css';
 class App extends React.Component {

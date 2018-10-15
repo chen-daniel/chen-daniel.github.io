@@ -21,7 +21,7 @@ class Projects extends React.Component {
             500
           );
         }
-      }, 750);
+      }, 150);
     }, 50);
   }
 

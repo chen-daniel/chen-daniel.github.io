@@ -3,7 +3,7 @@ import { HashRouter } from 'react-router-dom';
 
 import DelayLinkList from '../DelayLink/DelayLinkList.component';
 
-import './Navbar.css';
+import './navbar.css';
 
 class Navbar extends React.Component {
   componentDidMount() {
