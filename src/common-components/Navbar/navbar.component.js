@@ -56,14 +56,14 @@ class Navbar extends React.Component {
                   <p>Personal</p>
                   <ul>
                     <DelayLinkList
-                      to="/projects#personal-site"
+                      to="/projects#personal_site"
                       delay={375}
                       onDelayStart={this._delayStart}
                     >
                       <p>Personal Site</p>
                     </DelayLinkList>
                     <DelayLinkList
-                      to="/projects#home-automation"
+                      to="/projects#home_automation"
                       delay={375}
                       onDelayStart={this._delayStart}
                     >
@@ -116,21 +116,21 @@ class Navbar extends React.Component {
                   <p>School</p>
                   <ul>
                     <DelayLinkList
-                      to="/projects#mcu-visualization"
+                      to="/projects#mcu_visualization"
                       delay={375}
                       onDelayStart={this._delayStart}
                     >
                       <p>MCU Visualization</p>
                     </DelayLinkList>
                     <DelayLinkList
-                      to="/projects#spoiled-tomatillos"
+                      to="/projects#spoiled_tomatillos"
                       delay={375}
                       onDelayStart={this._delayStart}
                     >
                       <p>Spoiled Tomatillos</p>
                     </DelayLinkList>
                     <DelayLinkList
-                      to="/projects#web-dev-projects"
+                      to="/projects#web_dev_projects"
                       delay={375}
                       onDelayStart={this._delayStart}
                     >

@@ -1,4 +1,5 @@
 import React from 'react';
+import $ from 'jquery';
 
 import './Projects.css';
 
@@ -7,7 +8,33 @@ class Projects extends React.Component {
     setTimeout(() => {
       const wrapper = document.getElementById('wrapper');
       wrapper.classList.remove('is-loading');
+      setTimeout(() => {
+        const key = window.location.hash.split('#')[2];
+        if (key) {
+          $('#main').animate(
+            {
+              scrollTop:
+                $('#main')[0].scrollTop + $('#' + key).position().top - 20
+            },
+            500
+          );
+        }
+      }, 750);
     }, 50);
+  }
+
+  componentDidUpdate() {
+    const key = window.location.hash.split('#')[2];
+    if (key) {
+      $('#main').animate(
+        {
+          scrollTop: $('#main')[0].scrollTop + $('#' + key).position().top - 20
+        },
+        500
+      );
+    } else {
+      $('#main').animate({ scrollTop: 0 }, 500);
+    }
   }
 
   render() {
@@ -16,7 +43,7 @@ class Projects extends React.Component {
         <h1 id="personal">
           <b>Personal Projects</b>
         </h1>
-        <h4 id="personal-site">Personal Site</h4>
+        <h4 id="personal_site">Personal Site</h4>
         <p>
           This site actually turned out to be a much bigger undertaking than I
           initially thought it would be.
@@ -59,7 +86,7 @@ class Projects extends React.Component {
           development. I was able to learn a lot more of the tips and tricks
           around CSS, and gain a lot of practice in React.
         </p>
-        <h4 id="home-automation">Home Automation</h4>
+        <h4 id="home_automation">Home Automation</h4>
         <p>
           The backstory of this project involves the apartment I moved into in
           the fall of 2017. This apartment was great, but for some reason lacked
@@ -256,7 +283,7 @@ class Projects extends React.Component {
         <h1 id="school">
           <b>School Projects</b>
         </h1>
-        <h4 id="mcu-visualization">MCU Visualization</h4>
+        <h4 id="mcu_visualization">MCU Visualization</h4>
         <p>
           This project was for my CS3200 Database Design class. For this project
           I worked with
@@ -287,7 +314,7 @@ class Projects extends React.Component {
           working with. We matched each other well and our result was really
           impressive.
         </p>
-        <h4 id="spoiled-tomatillos">Spoiled Tomatillos</h4>
+        <h4 id="spoiled_tomatillos">Spoiled Tomatillos</h4>
         <p>
           This was a semester-long project for my CS4500 Software Development
           class. For this project, I worked with
@@ -322,7 +349,7 @@ class Projects extends React.Component {
           also awesome to work with and I was able to learn a lot from each of
           them in different areas.
         </p>
-        <h4 id="web-dev-projects">Web Dev Projects</h4>
+        <h4 id="web_dev_projects">Web Dev Projects</h4>
         <p>
           Over the course of the semester in my CS4550 Web Development class, we
           constantly built projects on our own Linux server. All of our projects
