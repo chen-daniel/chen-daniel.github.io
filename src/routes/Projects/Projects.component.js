@@ -147,6 +147,10 @@ class Projects extends React.Component {
           <a href="https://abbyko.github.io/"> Abby Ko,</a>
           <a href="https://www.linkedin.com/in/mo-alice/"> Alice Mo,</a>
           <a href="https://www.linkedin.com/in/ericjichung/"> Eric Chung,</a>
+          <a href="https://www.linkedin.com/in/jeffrey-chan-a80372109/">
+            {' '}
+            Jeffrey Chan,
+          </a>
           <a href="https://www.linkedin.com/in/austin-kim-741b96149/">
             {' '}
             Austin Kim,
