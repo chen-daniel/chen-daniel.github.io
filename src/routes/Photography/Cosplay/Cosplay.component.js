@@ -1,12 +1,16 @@
 import React from 'react';
 
+import $ from 'jquery';
+
 import Photo from '../../../common-components/Photo/Photo.component';
 
 class Cosplay extends React.Component {
   componentDidMount() {
     setTimeout(() => {
-      const wrapper = document.getElementById('wrapper');
-      wrapper.classList.remove('is-loading');
+      const wrapper = $('#wrapper');
+      wrapper.removeClass('is-loading');
+      const body = $('body');
+      body.removeClass('modal-active');
     }, 50);
     let s = document.createElement('script');
     s.src = 'assets/js/poptroxInit.js';

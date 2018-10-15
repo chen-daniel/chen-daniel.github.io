@@ -1,13 +1,17 @@
 import React from 'react';
 
+import $ from 'jquery';
+
 import PhotographyLink from '../../common-components/PhotographyLink/PhotographyLink.component';
 
 import './Photography.css';
 class Photography extends React.Component {
   componentDidMount() {
     setTimeout(() => {
-      const wrapper = document.getElementById('wrapper');
-      wrapper.classList.remove('is-loading');
+      const wrapper = $('#wrapper') 
+      wrapper.removeClass('is-loading');
+      const body = $('body')
+      body.removeClass('modal-active');
     }, 50);
   }
 

@@ -6,8 +6,10 @@ import './Projects.css';
 class Projects extends React.Component {
   componentDidMount() {
     setTimeout(() => {
-      const wrapper = document.getElementById('wrapper');
-      wrapper.classList.remove('is-loading');
+      const wrapper = $('#wrapper');
+      wrapper.removeClass('is-loading');
+      const body = $('body');
+      body.removeClass('modal-active');
       setTimeout(() => {
         const key = window.location.hash.split('#')[2];
         if (key) {
