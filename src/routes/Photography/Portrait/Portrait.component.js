@@ -2,8 +2,6 @@ import React from 'react';
 
 import Photo from '../../../common-components/Photo/Photo.component';
 
-import './Portrait.css';
-
 class Portrait extends React.Component {
   componentDidMount() {
     setTimeout(() => {

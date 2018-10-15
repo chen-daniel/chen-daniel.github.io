@@ -22,12 +22,13 @@ class About extends React.Component {
           Hi! My name is Daniel and I'm currently a Computer Science student at
           Northeastern University with a minor in Entrepreneurship. I'm
           passionate about building, iterating upon, and optimizing solutions
-          that put the user first. I was born in Canada, grew up in Hong Kong,
-          and studied for a year back in Canada before moving to Boston. My
-          interest in computer science was solidified during my first university
-          lecture and since then I've had the opportunity to continuously grow
-          and develop in the field. My interests currently lie in full-stack web
-          development, AI, distributed systems, game development, and robotics.
+          that put a focus on user experience. I was born in Canada, grew up in
+          Hong Kong, and studied for a year back in Canada before moving to
+          Boston. My interest in computer science was solidified during my first
+          university lecture and since then I've had the opportunity to
+          continuously grow and develop in the field. My interests currently lie
+          in full-stack web development, AI, distributed systems, game
+          development, and robotics.
           <br />
           <br />
           Most recently I was employed as a Software Developer Co-op at Circle.

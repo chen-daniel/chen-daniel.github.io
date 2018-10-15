@@ -17,7 +17,7 @@ class PhotographyLink extends React.Component {
 
   render() {
     const style = {
-      'background-image': `url(${this.props.src})`,
+      backgroundImage: `url(${this.props.src})`,
       cursor: 'pointer',
       outline: '0px'
     };

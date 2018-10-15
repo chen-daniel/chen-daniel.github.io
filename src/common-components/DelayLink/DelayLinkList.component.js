@@ -30,6 +30,8 @@ class DelayLinkList extends React.Component {
    * @param {Event} e
    */
   handleClick = (e) => {
+    e.preventDefault();
+    e.stopPropagation();
     const { replace, to, delay, onDelayStart, onDelayEnd } = this.props;
     const { history, route } = this.context.router;
     const currLocation = route.location.pathname;
@@ -37,12 +39,13 @@ class DelayLinkList extends React.Component {
     if (currLocation === to) {
       return;
     }
-
-    onDelayStart(e, to);
-    if (e.defaultPrevented) {
+    if (currLocation.includes('/projects') && to.includes('/projects')) {
+      const tag = document.getElementById(to.split('#')[1]);
+      tag.scrollIntoView();
+      history.replace(to);
       return;
     }
-    e.preventDefault();
+    onDelayStart(e, to);
 
     this.timeout = setTimeout(() => {
       if (replace) {

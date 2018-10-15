@@ -2,7 +2,6 @@ import React from 'react';
 
 import Photo from '../../../common-components/Photo/Photo.component';
 
-import './Landscape.css';
 class Landscape extends React.Component {
   componentDidMount() {
     setTimeout(() => {

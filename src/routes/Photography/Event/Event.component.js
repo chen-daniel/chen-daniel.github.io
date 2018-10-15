@@ -2,7 +2,6 @@ import React from 'react';
 
 import Photo from '../../../common-components/Photo/Photo.component';
 
-import './Event.css';
 class Event extends React.Component {
   componentDidMount() {
     setTimeout(() => {

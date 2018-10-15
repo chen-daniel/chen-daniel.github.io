@@ -1,0 +1,21 @@
+.project-page {
+  padding: 2.5em 3em 2.5em 3em;
+  width: 80%;
+  min-width: calc(80vw);
+  height: calc(100vh - 15em);
+  max-height: calc(100vh - 15em);
+  overflow: auto;
+}
+
+.project-page > p {
+  text-align: left;
+  text-transform: none;
+  color: black;
+  letter-spacing: 0.075em;
+}
+
+.project-page > h4 {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 1.25em;
+}

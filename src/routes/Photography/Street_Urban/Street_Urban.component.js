@@ -2,7 +2,6 @@ import React from 'react';
 
 import Photo from '../../../common-components/Photo/Photo.component';
 
-import './Street_Urban.css';
 class Street_Urban extends React.Component {
   componentDidMount() {
     setTimeout(() => {

@@ -47,6 +47,98 @@ class Navbar extends React.Component {
               onDelayStart={this._delayStart}
             >
               <p>Projects</p>
+              <ul>
+                <DelayLinkList
+                  to="/projects#personal"
+                  delay={375}
+                  onDelayStart={this._delayStart}
+                >
+                  <p>Personal</p>
+                  <ul>
+                    <DelayLinkList
+                      to="/projects#personal-site"
+                      delay={375}
+                      onDelayStart={this._delayStart}
+                    >
+                      <p>Personal Site</p>
+                    </DelayLinkList>
+                    <DelayLinkList
+                      to="/projects#home-automation"
+                      delay={375}
+                      onDelayStart={this._delayStart}
+                    >
+                      <p>Home Automation</p>
+                    </DelayLinkList>
+                  </ul>
+                </DelayLinkList>
+                <DelayLinkList
+                  to="/projects#hackathon"
+                  delay={375}
+                  onDelayStart={this._delayStart}
+                >
+                  <p>Hackathon</p>
+                  <ul>
+                    <DelayLinkList
+                      to="/projects#cappy"
+                      delay={375}
+                      onDelayStart={this._delayStart}
+                    >
+                      <p>Cap.py</p>
+                    </DelayLinkList>
+                    <DelayLinkList
+                      to="/projects#argot"
+                      delay={375}
+                      onDelayStart={this._delayStart}
+                    >
+                      <p>ARgot</p>
+                    </DelayLinkList>
+                    <DelayLinkList
+                      to="/projects#dangerzone"
+                      delay={375}
+                      onDelayStart={this._delayStart}
+                    >
+                      <p>DangerZone</p>
+                    </DelayLinkList>
+                    <DelayLinkList
+                      to="/projects#iceboxme"
+                      delay={375}
+                      onDelayStart={this._delayStart}
+                    >
+                      <p>Icebox.me</p>
+                    </DelayLinkList>
+                  </ul>
+                </DelayLinkList>
+                <DelayLinkList
+                  to="/projects#school"
+                  delay={375}
+                  onDelayStart={this._delayStart}
+                >
+                  <p>School</p>
+                  <ul>
+                    <DelayLinkList
+                      to="/projects#mcu-visualization"
+                      delay={375}
+                      onDelayStart={this._delayStart}
+                    >
+                      <p>MCU Visualization</p>
+                    </DelayLinkList>
+                    <DelayLinkList
+                      to="/projects#spoiled-tomatillos"
+                      delay={375}
+                      onDelayStart={this._delayStart}
+                    >
+                      <p>Spoiled Tomatillos</p>
+                    </DelayLinkList>
+                    <DelayLinkList
+                      to="/projects#web-dev-projects"
+                      delay={375}
+                      onDelayStart={this._delayStart}
+                    >
+                      <p>Web Dev Projects</p>
+                    </DelayLinkList>
+                  </ul>
+                </DelayLinkList>
+              </ul>
             </DelayLinkList>
             <DelayLinkList
               to="/photography"
