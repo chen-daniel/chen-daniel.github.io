@@ -14,7 +14,7 @@ class Projects extends React.Component {
     return (
       <section className="project-page" id="main">
         <h1 id="personal">
-          <b>Personal</b>
+          <b>Personal Projects</b>
         </h1>
         <h4 id="personal-site">Personal Site</h4>
         <p>
@@ -35,11 +35,12 @@ class Projects extends React.Component {
           <br />
           From here I realized that building this website using only HTML, CSS,
           and JavaScript was a terrible idea. I wanted the smooth seamless
-          experience of a single page application. With some research I found
-          that React has a gh-pages plugin that automatically build and deploys
-          React applications for Github Pages. With some fiddling around I was
-          able to get this working on my chen-daniel.github.io repository master
-          branch (the plugin defaults to deploy on a gh-pages branch).
+          experience of a single page application which would've been miles
+          rougher to build with just those tools. With some research I found
+          that Node.js has a gh-pages plugin that automatically build and
+          deploys React applications for Github Pages. With some fiddling around
+          I was able to get this working on my chen-daniel.github.io repository
+          master branch (the plugin defaults to deploy on a gh-pages branch).
           <br />
           Now I began migrating what I'd already built from my previous files
           into my new React project. There was a certain amount of loopholes I
@@ -100,7 +101,7 @@ class Projects extends React.Component {
           Fingers crossed no security concerns come up!
         </p>
         <h1 id="hackathon">
-          <b>Hackathon</b>
+          <b>Hackathon Projects</b>
         </h1>
         <h4 id="cappy">Cap.py</h4>
         <p>
@@ -109,8 +110,20 @@ class Projects extends React.Component {
           the Best Everyday Hack prize from PowerAdvocate. The goal of this
           project was to build a web application that was able to generate
           caption suggestions given a photo. Our team for this hackathon
-          included Abel Shin, Caitlin Wang, Elizabeth Cho, Brandon Yip, Abby Ko,
-          Alice Mo, Eric Chung, Duk Hwan Kim, Austin Kim, and Alice Mo.
+          included
+          <a href="https://github.com/Shinabel"> Abel Shin,</a>
+          <a href="https://ctlnwng.github.io/"> Caitlin Wang,</a>
+          <a href="https://www.linkedin.com/in/elizabeth-c/"> Elizabeth Cho,</a>
+          <a href="https://www.linkedin.com/in/brandonyip/"> Brandon Yip,</a>
+          <a href="https://abbyko.github.io/"> Abby Ko,</a>
+          <a href="https://www.linkedin.com/in/mo-alice/"> Alice Mo,</a>
+          <a href="https://www.linkedin.com/in/ericjichung/"> Eric Chung,</a>
+          <a href="https://www.linkedin.com/in/austin-kim-741b96149/">
+            {' '}
+            Austin Kim,
+          </a>{' '}
+          and
+          <a href="https://www.linkedin.com/in/duk-hwan-kim/"> Duk Hwan Kim.</a>
           <br />
           My team for this hackathon was several friends who we'd successfully
           convinced to sign up. I've been a pretty strong advocate for
@@ -160,8 +173,17 @@ class Projects extends React.Component {
           recognized items are translated into a foreign language, then natural
           phrases in the chosen language would be generated as well along with
           recordings of the phrase being spoken in the chosen language. Our team
-          for this hackathon included Aliyah Tyshkanbayeva, Victoria Yang, Minh
-          Tâm Vũ, and Abby Ko.
+          for this hackathon included
+          <a href="https://www.linkedin.com/in/aliyatoday/">
+            {' '}
+            Aliyah Tyshkanbayeva,
+          </a>
+          <a href="https://www.linkedin.com/in/victoriayang3/">
+            {' '}
+            Victoria Yang,
+          </a>
+          <a href="https://www.linkedin.com/in/mtamvu/"> Minh Tâm Vũ,</a> and
+          <a href="https://abbyko.github.io/"> Abby Ko.</a>
           <br />
           For this project, I worked on the back-end of our app with Victoria.
           Our back-end was a web-api built in Flask that scraped and compiled
@@ -177,8 +199,14 @@ class Projects extends React.Component {
           This project was built over a weekend during BostonHacks 2017. This
           project was geared towards residents in the Greater Boston area. It
           provided various safety statistics given a specific location in the
-          city. During this hackathon, I worked with Abel Shin, Tim Wong, Abby
-          Ko, and Eric Chung.
+          city. During this hackathon, I worked with
+          <a href="https://github.com/Shinabel"> Abel Shin,</a>
+          <a href="https://www.linkedin.com/in/timothy-wong-7222107b/">
+            {' '}
+            Tim Wong,
+          </a>
+          <a href="https://abbyko.github.io/"> Abby Ko,</a> and
+          <a href="https://www.linkedin.com/in/ericjichung/"> Eric Chung.</a>
           <br />
           For this project, after initial ideation, I mainly worked on the
           front-end of our app. This was mostly pure HTML, CSS, and Javascript
@@ -199,8 +227,12 @@ class Projects extends React.Component {
           concept of this project was a reverse recipe site which would generate
           recipes based on available ingredients. This was the first hackathon I
           ever attended so I went in with very little knowledge aside from basic
-          command line Java apps. During this hackathon, I worked with Ellen Lo
-          and CJ Moynihan.
+          command line Java apps. During this hackathon, I worked with
+          <a href="https://ellenlowing.github.io/"> Ellen Lo</a> and
+          <a href="https://www.linkedin.com/in/cj-moynihan-366ab9b0/">
+            {' '}
+            CJ Moynihan.
+          </a>
           <br />
           For this project I worked with CJ on our back-end. We started off by
           writing a python script to recursively scrape a recipe site into our
@@ -222,17 +254,19 @@ class Projects extends React.Component {
           on.
         </p>
         <h1 id="school">
-          <b>School</b>
+          <b>School Projects</b>
         </h1>
         <h4 id="mcu-visualization">MCU Visualization</h4>
         <p>
           This project was for my CS3200 Database Design class. For this project
-          I worked with Abel Shin and Minh Tâm Vũ. The assignment was to
-          demonstrate all 4 database transactions in an application of our
-          choice on a data domain of our choice. We decided to make a
-          visualization of the Marvel Cinematic Universe as we thought it would
-          create some interesting models and also contain a lot of interesting
-          information.
+          I worked with
+          <a href="https://github.com/Shinabel"> Abel Shin</a> and
+          <a href="https://www.linkedin.com/in/mtamvu/"> Minh Tâm Vũ.</a> The
+          assignment was to demonstrate all 4 database transactions in an
+          application of our choice on a data domain of our choice. We decided
+          to make a visualization of the Marvel Cinematic Universe as we thought
+          it would create some interesting models and also contain a lot of
+          interesting information.
           <br />
           We used the D3.js library for our data visualization which allowed us
           to make really visually interesting models. Our back-end was built in
@@ -249,17 +283,29 @@ class Projects extends React.Component {
           good data schema. Our web application was also dynamic, not loading
           all data at once which would take a long time, but loading it in
           chunks as necessary with AJAX. Implementing that with our timeline was
-          very fun.
+          a lot of fun. Overall I really enjoyed this project and the team I was
+          working with. We matched each other well and our result was really
+          impressive.
         </p>
         <h4 id="spoiled-tomatillos">Spoiled Tomatillos</h4>
         <p>
           This was a semester-long project for my CS4500 Software Development
-          class. For this project, I worked with Abel Shin, Jay Lok, Matthew
-          Morgan, and Veronica Shei. We were tasked with creating a web
-          application called Spoiled Tomatillos for our clients (the professor).
-          The app was essentially a social movie review website (It took us
-          embarrassingly long to realize that the title of the project was a
-          play on Rotten Tomatoes).
+          class. For this project, I worked with
+          <a href="https://github.com/Shinabel"> Abel Shin,</a>
+          <a href="https://jayylok.com/"> Jay Lok,</a>
+          <a href="https://www.linkedin.com/in/matthew-morgan-8612a5121/">
+            {' '}
+            Matthew Morgan,
+          </a>{' '}
+          and
+          <a href="https://www.linkedin.com/in/veronica-shei/">
+            {' '}
+            Veronica Shei.
+          </a>{' '}
+          We were tasked with creating a web application called Spoiled
+          Tomatillos for our clients (the professor). The app was essentially a
+          social movie review website (It took us embarrassingly long to realize
+          that the title of the project was a play on Rotten Tomatoes).
           <br />
           During this project, we followed proper software development practice.
           We setup a Jenkins pipeline to build and deploy our project for
@@ -278,7 +324,7 @@ class Projects extends React.Component {
         </p>
         <h4 id="web-dev-projects">Web Dev Projects</h4>
         <p>
-          Over the course of the semester in my CS4550 Web Development class. We
+          Over the course of the semester in my CS4550 Web Development class, we
           constantly built projects on our own Linux server. All of our projects
           were built using the Phoenix framework and Elixir on the back-end, and
           React and Bootstrap on the front-end. Throughout these projects we
