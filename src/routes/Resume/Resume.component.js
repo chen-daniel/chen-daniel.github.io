@@ -17,11 +17,17 @@ class About extends React.Component {
   render() {
     return (
       <section className="resume-page" id="main">
-        <embed
-          src="assets/files/Resume.pdf#view=FitH"
-          alt="pdf"
+        <object
+          data="assets/files/Resume.pdf#view=FitH"
+          type="application/pdf"
           className="resume-pdf"
-        />
+        >
+          <embed
+            src="assets/files/Resume.pdf#view=FitH"
+            type="application/pdf"
+            className="resume-pdf"
+          />
+        </object>
       </section>
     );
   }
