@@ -132,6 +132,77 @@ class Projects extends React.Component {
         <h1 id="hackathon">
           <b>Hackathon Projects</b>
         </h1>
+        <h4 id="lingo">linGO</h4>
+        <p>
+          This project was built over a weekend during HackHarvard 2018. The
+          goal of this project was to build an on-demand translator app. Our
+          team for this hackathon included
+          <a href="https://github.com/Shinabel"> Abel Shin,</a>
+          <a href="https://www.linkedin.com/in/brandonyip/"> Brandon Yip,</a>
+          <a href="https://abbyko.github.io/"> Abby Ko,</a> and
+          <a href="https://github.com/kiminlee2000225"> Kimin Lee.</a>
+          <br />
+          We developed this app with a very different set of tools. As one of
+          the event sponsors was Wix, they wanted us to use Wix Code as our
+          development platform. This was a new experience to all of us and had
+          some interesting effects on our process and our product. Instead of
+          jumping into development, we had to do a lot of research first about
+          how the platform worked and dive into it's documentation. After that,
+          we found a huge limitation to be the lack of ability to work on the
+          same project altogether. So we ended up splitting up. With one team
+          working on the design of our site and the other working on the backend
+          side. We spent a good deal of time trying to figure out the best way
+          to do user authentication with Wix Code because there was a built in
+          user engine but we didn't like everything it provided and also felt it
+          was missing some functionality. The last few hours of the hackathon
+          was spent taking all our work on the backend and integrating it into
+          our designers' work.
+          <br />
+          First of all, on Wix Code, our developers and our designers had very
+          different reactions to the platform. Our designers found it to be so
+          much easier than coding a page from scratch. Their drag and drop
+          interface works extremely well and it's very easy to get things to
+          work the way you want. On the other hand, our developers were
+          continually frustrated with the limitations that Wix Code had. We had
+          restrictions on libraries and packages that we could use, we found the
+          database to be overly difficult to utilize, the user system was also
+          confusing and some of the user libraries seemed to outright not work
+          (Wix Code was still in Beta at this point). Thus we had to build the
+          user and session token system from scratch.
+          <br />
+          Working with this platform did force me to think outside the box and
+          lower my reliability on packages and libraries. I implemented an
+          in-browser peer to peer calling system using WebRTC. This was really
+          interesting to build but again constantly ran into roadblocks with Wix
+          Code. Firstly, I needed to have custom HTML added to our page. Wix
+          Code doesn't allow any interactions with their generated HTML.
+          Instead, I had to embed this code into an IFrame that can't interact
+          with any outside code, which initially should've been fine. However,
+          Chrome now does not allow IFrames to be given access to things like
+          the microphone or audio without that permission being given in the
+          IFrame. Sadly, Wix Code didn't allow me to interact with the IFrame.
+          To get around this, I needed to add some JavaScript to the main page
+          that would add the properties to the IFrame on load. Wix Code doesn't
+          provide any of that kind of functionality. Instead, I found that
+          behind a paid subscription, I could get it to run custom code on the
+          HTML (originally for data collection purposes). With this I was able
+          to write a quick script that would add the permission parameters to
+          the IFrame whenever it was added to the DOM.
+          <br />I feel like I got to learn a lot about how to develop a
+          hackathon project through this one. Our design-work looked really
+          nice, but we let it pull too much focus from our project. Our user
+          authentication service was both a time drain, and unnecessary. We
+          should've prototyped the important features of our app first, and had
+          the extra information put somewhere else. Our app first and foremost
+          should've connected users searching for a translator to find someone
+          who could translate for them. This is what's important for a
+          presentation. The extra information would be helpful for potential
+          users, but that shouldn't have been something we were worried about in
+          this first build. The user system was also unnecessary bulk because it
+          just distracted from what our true purpose is supposed to be, though
+          it was pretty cool to work on. Lessons I will take with me going
+          forward.
+        </p>
         <h4 id="cappy">Cap.py</h4>
         <p>
           This project was built over a weekend during HackBeanpot 2018 where it

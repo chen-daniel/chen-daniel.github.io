@@ -79,6 +79,13 @@ class Navbar extends React.Component {
                   <p>Hackathon</p>
                   <ul>
                     <DelayLinkList
+                      to="/projects#lingo"
+                      delay={375}
+                      onDelayStart={this._delayStart}
+                    >
+                      <p>Cap.py</p>
+                    </DelayLinkList>
+                    <DelayLinkList
                       to="/projects#cappy"
                       delay={375}
                       onDelayStart={this._delayStart}
