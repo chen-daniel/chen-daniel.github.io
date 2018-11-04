@@ -133,11 +133,20 @@ class Projects extends React.Component {
           <b>Hackathon Projects</b>
         </h1>
         <h4 id="lingo">linGO</h4>
-        <img class="project-img" src="/assets/images/Projects/lingo.gif" alt="" />
+        <img
+          class="project-img"
+          src="/assets/images/Projects/lingo.gif"
+          alt=""
+        />
         <p>
           This project was built over a weekend during HackHarvard 2018. The
-          goal of this project was to build an on-demand translator app. Our
-          team for this hackathon included
+          goal of this project was to build an on-demand translator app. The
+          inspiration for this app arose from one of our group members sharing
+          about how their parents once had to stay on call for several ours
+          while their grandparents were in the hospital seeing a doctor, so that
+          they could act as a translator. We saw this project as something that
+          could be extremely beneficial for users. Our team for this hackathon
+          included
           <a href="https://github.com/Shinabel"> Abel Shin,</a>
           <a href="https://www.linkedin.com/in/brandonyip/"> Brandon Yip,</a>
           <a href="https://abbyko.github.io/"> Abby Ko,</a> and
@@ -205,7 +214,11 @@ class Projects extends React.Component {
           forward.
         </p>
         <h4 id="cappy">Cap.py</h4>
-        <img class="project-img" src="/assets/images/Projects/cappy.gif" alt="" />
+        <img
+          class="project-img"
+          src="/assets/images/Projects/cappy.gif"
+          alt=""
+        />
         <p>
           This project was built over a weekend during HackBeanpot 2018 where it
           won the Most Entrepreneurial Hack prize from Rough Draft Ventures and
