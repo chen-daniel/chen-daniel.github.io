@@ -133,7 +133,7 @@ class Projects extends React.Component {
           <b>Hackathon Projects</b>
         </h1>
         <h4 id="lingo">linGO</h4>
-        <img src="/assets/images/Projects/lingo.gif" alt="" />
+        <img class="project-img" src="/assets/images/Projects/lingo.gif" alt="" />
         <p>
           This project was built over a weekend during HackHarvard 2018. The
           goal of this project was to build an on-demand translator app. Our
@@ -205,7 +205,7 @@ class Projects extends React.Component {
           forward.
         </p>
         <h4 id="cappy">Cap.py</h4>
-        <img src="/assets/images/Projects/cappy.gif" alt="" />
+        <img class="project-img" src="/assets/images/Projects/cappy.gif" alt="" />
         <p>
           This project was built over a weekend during HackBeanpot 2018 where it
           won the Most Entrepreneurial Hack prize from Rough Draft Ventures and
@@ -363,7 +363,7 @@ class Projects extends React.Component {
           <b>School Projects</b>
         </h1>
         <h4 id="mcu_visualization">MCU Visualization</h4>
-        <img src="/assets/images/Projects/mcu.gif" alt="" />
+        <img class="project-img" src="/assets/images/Projects/mcu.gif" alt="" />
         <p>
           This project was for my CS3200 Database Design class. For this project
           I worked with
