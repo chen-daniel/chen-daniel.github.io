@@ -142,7 +142,7 @@ class Projects extends React.Component {
           This project was built over a weekend during HackHarvard 2018. The
           goal of this project was to build an on-demand translator app. The
           inspiration for this app arose from one of our group members sharing
-          about how their parents once had to stay on call for several ours
+          about how their parents once had to stay on call for several hours
           while their grandparents were in the hospital seeing a doctor, so that
           they could act as a translator. We saw this project as something that
           could be extremely beneficial for users. Our team for this hackathon
