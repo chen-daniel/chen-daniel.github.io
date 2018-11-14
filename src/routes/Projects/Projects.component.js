@@ -56,7 +56,7 @@ class Projects extends React.Component {
           web development exercise. It's a simple system that allows user
           signups, stores credentials securely, and is easily scalable to
           include additional functionality (that's what was important to me).
-          The app is build with Node.js and Express.js using a SQLite database
+          The app is built with Node.js and Express.js using a SQLite database
           (I can't believe I don't utilize SQLite more for my projects because
           it is so simple to setup and use cross platform). The front end is
           pretty much just React taken from my personal site, I will definitely
