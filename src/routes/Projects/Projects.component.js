@@ -45,6 +45,28 @@ class Projects extends React.Component {
         <h1 id="personal">
           <b>Personal Projects</b>
         </h1>
+        <h4 id="basic_user_app">Basic User App</h4>
+        <p>
+          More recently, I've noticed a shift in the projects I try to develop.
+          The scope of the projects I want to build I want to actually be
+          usable. So I decided to build a basic user authentication system that
+          I can reuse and rehash for whatever purpose.
+          <br />
+          In general, this is a pretty basic application, it is pretty much a
+          web development exercise. It's a simple system that allows user
+          signups, stores credentials securely, and is easily scalable to
+          include additional functionality (that's what was important to me).
+          The app is build with Node.js and Express.js using a SQLite database
+          (I can't believe I don't utilize SQLite more for my projects because
+          it is so simple to setup and use cross platform). The front end is
+          pretty much just React taken from my personal site, I will definitely
+          be cleaning it up some more.
+          <br />
+          Overall a very enjoyable little project to build. I am also planning
+          to add the functionality of a user being allowed to have multiple
+          emails, and having to verify those emails along with modifying user
+          information.
+        </p>
         <h4 id="personal_site">Personal Site</h4>
         <p>
           This site actually turned out to be a much bigger undertaking than I
@@ -132,6 +154,42 @@ class Projects extends React.Component {
         <h1 id="hackathon">
           <b>Hackathon Projects</b>
         </h1>
+        <h4 id="divvi">divvi</h4>
+        <img
+          class="project-img"
+          src="/assets/images/Projects/divvi.gif"
+          alt=""
+        />
+        <p>
+          Built over a day during BostonHacks 2018. This project was part one of
+          an app that addresses the difficulty in splitting the bill. Apps like
+          Venmo, Circle Pay, Square Cash, Zelle, and so on all address the
+          problem of money transfer, but as a college student who can't afford
+          to tank the bill, there is still an annoyance in the sector of
+          splitting the bill, or seperating grocery expenses where we must pull
+          out a calculator and calculate how much each person owes. This app's
+          goal is to streamline that process. Users create or join groups and
+          someone takes a photo of their receipt, and choose a method of
+          splitting the check. Methods include splitting evenly, allowing the
+          uploader to assign other members to certain items on the receipt, or
+          the members can select what they are paying for. Once all the sections
+          are split, the app will calculate how much everyone owes and
+          automatically request that amount from each member.
+          <br />
+          This is an idea I've wanted to build for awhile. The original
+          conception had the app sending out Venmo requests automatically.
+          Something like that would've been great because it would've allowed us
+          to focus on the receipt aspect and just reference venmo users.
+          However, we didn't find any ability to OAuth with Venmo, so ultimately
+          we decided we needed our own user engine. Using my basic user app, we
+          built on top of that. We used the Tesseract OCR to read receipts and
+          split the lines and prices. It worked extremely well, I was actually
+          so impressed with the outcome. Sadly, BostonHacks (around 22 hours)
+          didn't give us the time we needed to get a full prototype, only
+          managing to get us as far as building both the user system and receipt
+          reader, then integrating them together. This is a project I will
+          definitely continue to work on.
+        </p>
         <h4 id="lingo">linGO</h4>
         <img
           class="project-img"
