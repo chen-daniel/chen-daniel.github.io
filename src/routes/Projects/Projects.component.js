@@ -174,12 +174,19 @@ class Projects extends React.Component {
           uploader to assign other members to certain items on the receipt, or
           the members can select what they are paying for. Once all the sections
           are split, the app will calculate how much everyone owes and
-          automatically request that amount from each member.
+          automatically request that amount from each member. Our team for this
+          hackathon included
+          <a href="https://github.com/Shinabel"> Abel Shin,</a>
+          <a href="https://parke.myportfolio.com/"> Emily Park,</a>
+          <a href="https://abbyko.github.io/"> Abby Ko,</a>
+          <a href="https://www.linkedin.com/in/duk-hwan-kim/"> Duk Hwan Kim,</a>
+          <a href="https://www.linkedin.com/in/mo-alice/"> Alice Mo,</a> and
+          <a href="https://www.linkedin.com/in/tiffanytiho/"> Tiffany Ho.</a>
           <br />
           This is an idea I've wanted to build for awhile. The original
           conception had the app sending out Venmo requests automatically.
           Something like that would've been great because it would've allowed us
-          to focus on the receipt aspect and just reference venmo users.
+          to focus on the receipt aspect and just reference Venmo users.
           However, we didn't find any ability to OAuth with Venmo, so ultimately
           we decided we needed our own user engine. Using my basic user app, we
           built on top of that. We used the Tesseract OCR to read receipts and
@@ -188,7 +195,7 @@ class Projects extends React.Component {
           didn't give us the time we needed to get a full prototype, only
           managing to get us as far as building both the user system and receipt
           reader, then integrating them together. This is a project I will
-          definitely continue to work on.
+          definitely continue to work on and will keep updated.
         </p>
         <h4 id="lingo">linGO</h4>
         <img
