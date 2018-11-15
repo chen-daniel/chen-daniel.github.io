@@ -1,8 +1,9 @@
 .resume-page {
   padding: 2.5em 3em 2.5em 3em;
   min-width: calc(80vw);
-  height: calc(100vh - 15em);
-  max-height: calc(100vh - 15em);
+  min-height: 400px;
+  height: 100vh;
+  max-height: 81vh;
   overflow: auto;
 }
 

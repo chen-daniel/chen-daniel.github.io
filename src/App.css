@@ -904,25 +904,24 @@ button:disabled,
 
 body.is-loading #main {
   opacity: 0;
-  -moz-transform: rotateX(15deg);
-  -webkit-transform: rotateX(15deg);
-  -ms-transform: rotateX(15deg);
-  transform: rotateX(15deg);
+  -moz-transform: rotateX(-5deg);
+  -webkit-transform: rotateX(-5deg);
+  -ms-transform: rotateX(-5deg);
+  transform: rotateX(-5deg);
 }
 
 #wrapper.is-loading #main {
   opacity: 0;
-  -moz-transform: rotateX(15deg);
-  -webkit-transform: rotateX(15deg);
-  -ms-transform: rotateX(15deg);
-  transform: rotateX(15deg);
+  -moz-transform: rotateX(-5deg);
+  -webkit-transform: rotateX(-5deg);
+  -ms-transform: rotateX(-5deg);
+  transform: rotateX(-5deg);
 }
 
 /* Footer */
 
 #footer {
-  padding-top: 2em;
-  margin: auto 0 3em 0;
+  margin: auto 0 1em 0;
   -moz-align-self: -moz-flex-end;
   -webkit-align-self: -webkit-flex-end;
   -ms-align-self: -ms-flex-end;
