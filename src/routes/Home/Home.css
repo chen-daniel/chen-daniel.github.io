@@ -7,7 +7,7 @@
 }
 
 .home-page {
-  max-width: 50% !important;
+  width: 27em !important;
   min-width: 27em;
   padding: 2.5em 3em 0.5em 3em;
 }
