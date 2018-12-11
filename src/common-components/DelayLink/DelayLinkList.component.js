@@ -36,6 +36,10 @@ class DelayLinkList extends React.Component {
     const { history, route } = this.context.router;
     const currLocation = route.location.pathname;
 
+    if (this.props.closeMenu) {
+      this.props.closeMenu();
+    }
+
     if (currLocation === to && currLocation !== '/projects') {
       return;
     }
