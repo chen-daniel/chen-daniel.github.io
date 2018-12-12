@@ -19,7 +19,7 @@ class About extends React.Component {
       <section className="about-page" id="main">
         <header>
           <span className="avatar">
-            <img alt="" id="about-img" />
+            <img src={"/assets/images/profile.jpg"} alt="" id="about-img" />
           </span>
         </header>
         <p>

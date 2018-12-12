@@ -18,7 +18,7 @@ class Home extends React.Component {
       <section className="home-page" id="main">
         <header>
           <span className="avatar">
-            <img src="/assets/images/logo.png" alt="" id="home-img" />
+            <img src={"/assets/images/logo.png"} alt="" id="home-img" />
           </span>
           <h1>Daniel Chen</h1>
           <h2>Northeastern University Student</h2>
