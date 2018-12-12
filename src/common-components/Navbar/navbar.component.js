@@ -21,7 +21,6 @@ class Navbar extends React.Component {
     s.type = 'text/javascript';
     s.async = true;
     s.id = 'dropotronScript';
-    console.log(s);
     document.body.appendChild(s);
     window.addEventListener("resize", this.updateDimensions.bind(this));
     this.updateDimensions();
