@@ -47,6 +47,7 @@
 }
 
 .project-page > h1 {
+  font-weight: 600;
   font-size: 2em;
   text-decoration: underline;
 }
@@ -62,6 +63,7 @@ br {
   position: relative;
   width: 100%;
   display: inline-block;
+  margin-bottom: 0 !important;
 }
 .team-div {
   width: calc(100% - 3.5em);
@@ -76,6 +78,7 @@ br {
   position: relative;
   width: 100%;
   display: inline-block;
+  margin-bottom: 0 !important;
 }
 .hackathon-div {
   width: calc(100% - 6em);
@@ -90,6 +93,7 @@ br {
   position: relative;
   width: 100%;
   display: inline-block;
+  margin-bottom: 0 !important;
 }
 .school-div {
   width: calc(100% - 3.5em);
