@@ -67,6 +67,14 @@ class Projects extends React.Component {
           <b>Hackathon Projects</b>
         </h1>
         <h4 id="divvi">divvi</h4>
+        <p class="hackathon clearfix">
+          <div class="hackathon-div">
+            BostonHacks 2018
+          </div>
+          <div class="hackathon-opener">
+            Hackathon:
+          </div>
+        </p>
         <p class="team-members clearfix">
           <div class="team-div">
             <a href="https://github.com/Shinabel"> Abel Shin </a>|
@@ -98,6 +106,14 @@ class Projects extends React.Component {
           intelligent processing of a photo of the receipt.
         </p>
         <h4 id="lingo">linGO</h4>
+        <p class="hackathon clearfix">
+          <div class="hackathon-div">
+            HackHarvard 2018
+          </div>
+          <div class="hackathon-opener">
+            Hackathon:
+          </div>
+        </p>
         <p class="team-members clearfix">
           <div class="team-div">
           <a href="https://github.com/Shinabel"> Abel Shin </a>|
@@ -126,6 +142,14 @@ class Projects extends React.Component {
           (i.e doctor's appointment).
         </p>
         <h4 id="cappy">Cap.py</h4>
+        <p class="hackathon clearfix">
+          <div class="hackathon-div">
+            HackBeanpot 2018
+          </div>
+          <div class="hackathon-opener">
+            Hackathon:
+          </div>
+        </p>
         <p class="team-members clearfix">
           <div class="team-div">
             <a href="https://ctlnwng.github.io/"> Caitlin Wang </a>|
@@ -161,6 +185,14 @@ class Projects extends React.Component {
           relevant captions for your use.
         </p>
         <h4 id="argot">ARgot</h4>
+        <p class="hackathon clearfix">
+          <div class="hackathon-div">
+            WHACK 2017
+          </div>
+          <div class="hackathon-opener">
+            Hackathon:
+          </div>
+        </p>
         <p class="team-members clearfix">
           <div class="team-div">
           <a href="https://www.linkedin.com/in/aliyatoday/">
@@ -185,6 +217,14 @@ class Projects extends React.Component {
           provided with pronunciations (with sound), phrases, and examples.
         </p>
         <h4 id="dangerzone">DangerZone</h4>
+        <p class="hackathon clearfix">
+          <div class="hackathon-div">
+            BostonHacks 2017
+          </div>
+          <div class="hackathon-opener">
+            Hackathon:
+          </div>
+        </p>
         <p class="team-members clearfix">
           <div class="team-div">
           <a href="https://github.com/Shinabel"> Abel Shin </a>|
@@ -204,6 +244,14 @@ class Projects extends React.Component {
           or zone in the Greater Boston Area. 
         </p>
         <h4 id="iceboxme">Icebox.me</h4>
+        <p class="hackathon clearfix">
+          <div class="hackathon-div">
+            HackUMass 2016
+          </div>
+          <div class="hackathon-opener">
+            Hackathon:
+          </div>
+        </p>
         <p class="team-members clearfix">
           <div class="team-div">
           <a href="https://ellenlowing.github.io/"> Ellen Lo </a>|
@@ -226,6 +274,14 @@ class Projects extends React.Component {
           <b>School Projects</b>
         </h1>
         <h4 id="mcu_visualization">MCU Visualization</h4>
+        <p class="school clearfix">
+          <div class="school-div">
+            CS3200 - Database Design
+          </div>
+          <div class="school-opener">
+            Class:
+          </div>
+        </p>
         <p class="team-members clearfix">
           <div class="team-div">
           <a href="https://github.com/Shinabel"> Abel Shin </a>|
@@ -243,6 +299,14 @@ class Projects extends React.Component {
           our CS3200 Database Design final project. 
         </p>
         <h4 id="spoiled_tomatillos">Spoiled Tomatillos</h4>
+        <p class="school clearfix">
+          <div class="school-div">
+            CS4500 - Software Development
+          </div>
+          <div class="school-opener">
+            Class:
+          </div>
+        </p>
         <p class="team-members clearfix">
           <div class="team-div">
           <a href="https://github.com/Shinabel"> Abel Shin </a>|
@@ -268,6 +332,14 @@ class Projects extends React.Component {
           management technologies such as Jenkins CI, Jira, Slack, and scrum.
         </p>
         <h4 id="web_dev_projects">Web Dev Projects</h4>
+        <p class="school clearfix">
+          <div class="school-div">
+            CS4550 - Web Development
+          </div>
+          <div class="school-opener">
+            Class:
+          </div>
+        </p>
         <p>
           Several projects and assignments hosted on a Virtual Private Server 
           setup by ourselves. Throughout the semester for CS4550 Web Development, 
