@@ -45,18 +45,18 @@ class Projects extends React.Component {
         <h1 id="personal">
           <b>Personal Projects</b>
         </h1>
-        <h4 id="basic_user_app">Basic User App</h4>
+        <h4 id="basic_user_app"><a href="https://github.com/chen-daniel/basic-node-auth-app">Basic User App</a></h4>
         <p>
           A very barebones user authentication application built in Node.js 
           with Express and React on the front-end for the purposes of being 
           easily extensible. Includes signup, login, and session management flows.
         </p>
-        <h4 id="personal_site">Personal Site</h4>
+        <h4 id="personal_site"><a href="https://github.com/chen-daniel/chen-daniel.github.io/tree/dev-branch">Personal Site</a></h4>
         <p>
           This site! Built in React, utilizing some HTML and CSS templates from 
           HTML5Up, exported to and hosted by Github Pages.
         </p>
-        <h4 id="home_automation">Home Automation</h4>
+        <h4 id="home_automation"><a href="https://github.com/chen-daniel/home_automation">Home Automation</a></h4>
         <p>
           Some basic home automation built with an ESP8266 microcontroller. 
           The microcontroller hosts a web server with webhooks which trigger RF 
@@ -66,7 +66,7 @@ class Projects extends React.Component {
         <h1 id="hackathon">
           <b>Hackathon Projects</b>
         </h1>
-        <h4 id="divvi">divvi</h4>
+        <h4 id="divvi"><a href="https://github.com/chen-daniel/divvi">divvi</a></h4>
         <p class="hackathon clearfix">
           <div class="hackathon-div">
             BostonHacks 2018
@@ -139,7 +139,7 @@ class Projects extends React.Component {
           with people who require translations in a high stakes environments 
           (i.e doctor's appointment).
         </p>
-        <h4 id="cappy">Cap.py</h4>
+        <h4 id="cappy"><a href="https://github.com/Shinabel/Cap.py">Cap.py</a></h4>
         <p class="hackathon clearfix">
           <div class="hackathon-div">
             HackBeanpot 2018
@@ -182,7 +182,7 @@ class Projects extends React.Component {
           your photo, wait a few second, and bam, a selection of perfectly 
           relevant captions for your use.
         </p>
-        <h4 id="argot">ARgot</h4>
+        <h4 id="argot"><a href="https://github.com/wenhuiyang/ARgot">ARgot</a></h4>
         <p class="hackathon clearfix">
           <div class="hackathon-div">
             WHACK 2017
@@ -214,7 +214,7 @@ class Projects extends React.Component {
           language? Simply point your iPhone at the object and you'll be 
           provided with pronunciations (with sound), phrases, and examples.
         </p>
-        <h4 id="dangerzone">DangerZone</h4>
+        <h4 id="dangerzone"><a href="https://github.com/dchen7321/DangerZone">DangerZone</a></h4>
         <p class="hackathon clearfix">
           <div class="hackathon-div">
             BostonHacks 2017
@@ -238,10 +238,10 @@ class Projects extends React.Component {
           </div>
         </p>
         <p>
-          A one stop solution to getting various safety statistics for any position 
-          or zone in the Greater Boston Area. 
+          A one stop solution to getting various safety statistics, and a relative 
+          safety score for any position or zone in the Greater Boston Area. 
         </p>
-        <h4 id="iceboxme">Icebox.me</h4>
+        <h4 id="iceboxme"><a href="https://github.com/partyrico/icebox">Icebox.me</a></h4>
         <p class="hackathon clearfix">
           <div class="hackathon-div">
             HackUMass 2016
@@ -271,7 +271,7 @@ class Projects extends React.Component {
         <h1 id="school">
           <b>School Projects</b>
         </h1>
-        <h4 id="mcu_visualization">MCU Visualization</h4>
+        <h4 id="mcu_visualization"><a href="https://github.com/chen-daniel/MCU_Visualization">MCU Visualization</a></h4>
         <p class="school clearfix">
           <div class="school-div">
             CS3200 - Database Design
@@ -296,7 +296,7 @@ class Projects extends React.Component {
           point and performing all 4 CRUD operations on the database. Built for 
           our CS3200 Database Design final project. 
         </p>
-        <h4 id="spoiled_tomatillos">Spoiled Tomatillos</h4>
+        <h4 id="spoiled_tomatillos"><a href="https://github.com/Shinabel/spoiled_tomatillos">Spoiled Tomatillos</a></h4>
         <p class="school clearfix">
           <div class="school-div">
             CS4500 - Software Development
