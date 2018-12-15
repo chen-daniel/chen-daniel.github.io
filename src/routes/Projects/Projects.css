@@ -48,6 +48,14 @@
 
 .project-page > h1 {
   font-size: 2em;
+  text-decoration: underline;
+}
+
+br {
+  display: block;
+  margin: 0.5em 0;
+  line-height: 1.25em;
+  content: " ";
 }
 
 .team-members {

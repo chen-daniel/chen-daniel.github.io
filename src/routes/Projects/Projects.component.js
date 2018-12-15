@@ -100,7 +100,6 @@ class Projects extends React.Component {
           someone needing to pull out a calculator and tapping in numbers to 
           find what everyone owes.
           <br />
-          <br />
           Enter Divvi, a peer to peer payments application that provides a 
           seamless process for splitting a bill between groups based on 
           intelligent processing of a photo of the receipt.
@@ -135,7 +134,6 @@ class Projects extends React.Component {
           needs, such as understanding the latest multilingual meme, or some 
           KPop song lyrics. But we have yet to develop technology sophisticated 
           enough to truly replace a human translator. 
-          <br />
           <br />
           LinGO is an on-demand translator service, connecting live translators 
           with people who require translations in a high stakes environments 
