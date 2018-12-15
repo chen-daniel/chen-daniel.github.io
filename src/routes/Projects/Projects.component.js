@@ -30,7 +30,7 @@ class Projects extends React.Component {
     if (key) {
       $('#main').animate(
         {
-          scrollTop: $('#main')[0].scrollTop + $('#' + key).position().top - 20
+          scrollTop: $('#main')[0].scrollTop + $('#' + key).position().top - 7
         },
         500
       );
