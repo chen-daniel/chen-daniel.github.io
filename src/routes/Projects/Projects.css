@@ -21,6 +21,7 @@
 
 .project-page > p {
   text-align: left;
+  font-size: 1.25em;
   text-transform: none;
   color: black;
   letter-spacing: 0.075em;
@@ -29,5 +30,27 @@
 .project-page > h4 {
   text-align: left;
   text-transform: uppercase;
-  font-size: 1.25em;
+  font-size: 1.5em;
+}
+
+.project-page > h1 {
+  font-size: 2em;
+}
+
+.team-members {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+}
+.team-div {
+  width: calc(100% - 3.5em);
+  float: right;
+}
+.team-opener {
+  width: 3em;
+  float: left;
+}
+.clearfix:after {
+content: "";
+clear: both;
 }
