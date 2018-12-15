@@ -4,6 +4,10 @@ import $ from 'jquery';
 
 import Photo from '../../../common-components/Photo/Photo.component';
 
+const util = require('../util');
+
+const numImages = 18;
+
 class Event extends React.Component {
   componentDidMount() {
     setTimeout(() => {
@@ -27,27 +31,18 @@ class Event extends React.Component {
     poptroxDiv[0].parentNode.removeChild(poptroxDiv[0]);
   }
 
+  generatePhotos() {
+    const photoList = [];
+    for (let i = numImages; i > 0; i--) {
+      photoList.push(<Photo src={`/assets/images/Event/${util.ensureDoubleDigit(i)}.jpg`} />);
+    }
+    return photoList;
+  }
+
   render() {
     return (
       <section className="tiles" id="main">
-        <Photo src="/assets/images/Event/18.jpg" />
-        <Photo src="/assets/images/Event/17.jpg" />
-        <Photo src="/assets/images/Event/16.jpg" />
-        <Photo src="/assets/images/Event/15.jpg" />
-        <Photo src="/assets/images/Event/14.jpg" />
-        <Photo src="/assets/images/Event/13.jpg" />
-        <Photo src="/assets/images/Event/12.jpg" />
-        <Photo src="/assets/images/Event/11.jpg" />
-        <Photo src="/assets/images/Event/10.jpg" />
-        <Photo src="/assets/images/Event/09.jpg" />
-        <Photo src="/assets/images/Event/08.jpg" />
-        <Photo src="/assets/images/Event/07.jpg" />
-        <Photo src="/assets/images/Event/06.jpg" />
-        <Photo src="/assets/images/Event/05.jpg" />
-        <Photo src="/assets/images/Event/04.jpg" />
-        <Photo src="/assets/images/Event/03.jpg" />
-        <Photo src="/assets/images/Event/02.jpg" />
-        <Photo src="/assets/images/Event/01.jpg" />
+        { this.generatePhotos() }
       </section>
     );
   }

@@ -4,6 +4,10 @@ import $ from 'jquery';
 
 import Photo from '../../../common-components/Photo/Photo.component';
 
+const util = require('../util');
+
+const numImages = 18;
+
 class Street_Urban extends React.Component {
   componentDidMount() {
     setTimeout(() => {
@@ -27,27 +31,18 @@ class Street_Urban extends React.Component {
     poptroxDiv[0].parentNode.removeChild(poptroxDiv[0]);
   }
 
+  generatePhotos() {
+    const photoList = [];
+    for (let i = numImages; i > 0; i--) {
+      photoList.push(<Photo src={`/assets/images/Street_Urban/${util.ensureDoubleDigit(i)}.jpg`} />);
+    }
+    return photoList;
+  }
+
   render() {
     return (
       <section className="tiles" id="main">
-        <Photo src="/assets/images/Street_Urban/18.jpg" />
-        <Photo src="/assets/images/Street_Urban/17.jpg" />
-        <Photo src="/assets/images/Street_Urban/16.jpg" />
-        <Photo src="/assets/images/Street_Urban/15.jpg" />
-        <Photo src="/assets/images/Street_Urban/14.jpg" />
-        <Photo src="/assets/images/Street_Urban/13.jpg" />
-        <Photo src="/assets/images/Street_Urban/12.jpg" />
-        <Photo src="/assets/images/Street_Urban/11.jpg" />
-        <Photo src="/assets/images/Street_Urban/10.jpg" />
-        <Photo src="/assets/images/Street_Urban/09.jpg" />
-        <Photo src="/assets/images/Street_Urban/08.jpg" />
-        <Photo src="/assets/images/Street_Urban/07.jpg" />
-        <Photo src="/assets/images/Street_Urban/06.jpg" />
-        <Photo src="/assets/images/Street_Urban/05.jpg" />
-        <Photo src="/assets/images/Street_Urban/04.jpg" />
-        <Photo src="/assets/images/Street_Urban/03.jpg" />
-        <Photo src="/assets/images/Street_Urban/02.jpg" />
-        <Photo src="/assets/images/Street_Urban/01.jpg" />
+        { this.generatePhotos() }
       </section>
     );
   }

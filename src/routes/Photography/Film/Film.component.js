@@ -4,6 +4,10 @@ import $ from 'jquery';
 
 import Photo from '../../../common-components/Photo/Photo.component';
 
+const util = require('../util');
+
+const numImages = 6;
+
 class Film extends React.Component {
   componentDidMount() {
     setTimeout(() => {
@@ -27,15 +31,18 @@ class Film extends React.Component {
     poptroxDiv[0].parentNode.removeChild(poptroxDiv[0]);
   }
 
+  generatePhotos() {
+    const photoList = [];
+    for (let i = numImages; i > 0; i--) {
+      photoList.push(<Photo src={`/assets/images/Film/${util.ensureDoubleDigit(i)}.jpg`} />);
+    }
+    return photoList;
+  }
+
   render() {
     return (
       <section className="tiles" id="main">
-        <Photo src="/assets/images/Film/06.jpg" />
-        <Photo src="/assets/images/Film/05.jpg" />
-        <Photo src="/assets/images/Film/04.jpg" />
-        <Photo src="/assets/images/Film/03.jpg" />
-        <Photo src="/assets/images/Film/02.jpg" />
-        <Photo src="/assets/images/Film/01.jpg" />
+        { this.generatePhotos() }
       </section>
     );
   }
