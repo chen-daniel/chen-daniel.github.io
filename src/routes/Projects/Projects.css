@@ -32,7 +32,7 @@
   margin-top: 1.5em;
 }
 
-.project-page > p {
+.project-page p {
   text-align: left;
   font-size: 1.25em;
   text-transform: none;
@@ -40,13 +40,13 @@
   letter-spacing: 0.075em;
 }
 
-.project-page > h4 {
+.project-page h4 {
   text-align: left;
   text-transform: uppercase;
   font-size: 1.5em;
 }
 
-.project-page > h1 {
+.project-page h1 {
   font-weight: 600;
   font-size: 2em;
   text-decoration: underline;
@@ -101,6 +101,21 @@ br {
 }
 .school-opener {
   width: 3em;
+  float: left;
+}
+
+.award {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 0 !important;
+}
+.award-div {
+  width: calc(100% - 4em);
+  float: right;
+}
+.award-opener {
+  width: 3.5em;
   float: left;
 }
 
