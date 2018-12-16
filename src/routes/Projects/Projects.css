@@ -4,7 +4,7 @@
   min-width: calc(80vw);
   min-height: 400px;
   height: 100vh;
-  max-height: 81vh;
+  max-height: 80vh;
   overflow: auto;
 }
 
