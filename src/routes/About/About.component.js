@@ -34,16 +34,19 @@ class About extends React.Component {
           in full-stack web development, AI, distributed systems, game
           development, and robotics.
           <br />
-          <br />
           Most recently I was employed as a Software Developer Co-op at Circle.
           At this position, I have had the privilege of working with an
           extremely experienced and talented group of developers who have helped
           me improve as both a developer and a team member.
           <br />
-          <br />
           Outside of VS Code, I also enjoy photography (Former Canon user
           converted to Sony), film, keeping up with tech news, gaming (Xbox
           FTW), basketball (Go Lebron), and hip-hop dance (WOO Kinjaz).
+          <br />
+          <br />
+          Currently learning: Ruby, Rails, Vue.js
+          <br />
+          Currently building: Divvi, LodgeLab
         </p>
       </section>
     );
