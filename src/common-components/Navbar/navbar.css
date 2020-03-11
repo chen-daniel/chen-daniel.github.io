@@ -166,8 +166,7 @@
   cursor: pointer;
 }
 
-/* Styling of overlay 
 .bm-overlay {
-  background: rgba(0, 0, 0, 0.3);
+  width: unset !important;
+  height: unset !important;
 }
-*/
