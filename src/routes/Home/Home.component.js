@@ -21,12 +21,9 @@ class Home extends React.Component {
             <img src={"/assets/images/logo.png"} alt="" id="home-img" />
           </span>
           <h1>Daniel Chen</h1>
-          <h2>Northeastern University Student</h2>
-          <p>
-            Computer Science Major
-            <br />
-            Entrepreneurship Minor
-          </p>
+          <br />
+          <h3>Software Engineer @ Facebook</h3>
+          <br />
         </header>
 
         <footer>

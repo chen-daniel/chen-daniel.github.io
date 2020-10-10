@@ -18,12 +18,12 @@ class About extends React.Component {
     return (
       <section className="resume-page" id="main">
         <object
-          data="assets/files/Resume.pdf#view=FitH"
+          data="assets/files/DanielChenResume.pdf#view=FitH"
           type="application/pdf"
           className="resume-pdf"
         >
           <embed
-            src="assets/files/Resume.pdf#view=FitH"
+            src="assets/files/DanielChenResume.pdf#view=FitH"
             type="application/pdf"
             className="resume-pdf"
           />
