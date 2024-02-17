@@ -4,7 +4,6 @@
   "private": true,
   "homepage": "https://www.dchen.tech",
   "dependencies": {
-    "gh-pages": "^2.2.0",
     "jquery": "^3.5.1",
     "react": "^16.13.1",
     "react-burger-menu": "^2.8.0",
@@ -31,5 +30,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
 }

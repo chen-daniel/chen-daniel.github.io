@@ -23,24 +23,15 @@ class About extends React.Component {
           </span>
         </header>
         <p>
-          Hi! My name is Daniel and I'm currently a Software Engineer at Facebook. I'm
-          passionate about building, iterating upon, and optimizing solutions
-          that put a focus on user experience. I was born in Canada, grew up in
-          Hong Kong, and studied for a year back in Canada before moving to
-          Boston. My interest in computer science was solidified during my first
-          university lecture and since then I've had the opportunity to
-          continuously grow and develop in the field. My interests currently lie
-          in full-stack web development, VR/AR, AI, distributed systems, game
-          development, and robotics.
-          <br />
-          Outside of VS Code, I also enjoy photography (Former Canon user
-          converted to Sony), film, keeping up with tech news, gaming (Xbox
-          FTW), basketball (Go Lebron), and watching hip-hop dance videos (Kinjaz).
-          <br />
-          <br />
-          Currently learning: Firebase
-          <br />
-          Currently building: CosLab
+          Hi! My name is Daniel and I'm currently a Software Engineer II at Toast. 
+          <br/>
+          I am passionate about building elegant user experiences and love learning and developing on the cutting edge of technology. 
+          I bring extensive experience in full stack development and low-level performance optimization. 
+          Proficient in React, JavaScript, TypeScript, Java, Kotlin, and Swift, my approach emphasizes data-backed decision-making, with a focus on A/B testing and experimentation.
+          Collaboration is a key aspect of the work, extending to engineers, designers, product managers, data scientists, and quality assurance. 
+          Beyond this, I also love learning new technologies, skills, and tools to drive innovation and growth as well as mentoring and sharing knowledge with others.
+          <br/>
+          My interests lie in exploring opportunities in VR/AR, game development, applied machine learning, distributed systems, and robotics.
         </p>
       </section>
     );

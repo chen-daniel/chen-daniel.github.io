@@ -22,7 +22,7 @@ class Home extends React.Component {
           </span>
           <h1>Daniel Chen</h1>
           <br />
-          <h3>Software Engineer @ Facebook</h3>
+          <h3>Software Engineer II @ Toast</h3>
           <br />
         </header>
 
